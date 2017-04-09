@@ -65,3 +65,35 @@ AJAX Security Limitations
 
 5.  What does JSONP stand for?
     JSON with Padding.
+
+
+AJAX Callbacks
+1.  What is the value of an XMLHttpRequest object's readyState when the browser has received all of the data from the server?
+    4.
+
+2.  A variable named xhr contains an XMLHttpRequest Object. Which of these sends the AJAX request to the server?
+    xhr.send();
+
+3.  What does an HTTP status code of 404 mean?
+    File Not Found.
+
+4.  What does an HTTP status code of 200 mean?
+    OK.
+
+5.  Which of the following correctly creates an XHR object?
+    var request = new XMLHttpRequest();
+
+
+JSON
+1.  True or False: JSON stands for JavaScript Object Notation.
+    True.
+
+2.  Which of the following is true about JSON properties?
+    Property names must be quoted using double quotes.
+
+3.  Which one of the following shows a correctly formatted JSON property name / value pair?
+    "course" : "AJAX Basics"
+
+4.  JSON data can be formatted in which of these ways?
+    As an array of values, as a JavaScript object containing property name / value pairs and
+    as an array of JavaScript objects.
