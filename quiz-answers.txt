@@ -4,6 +4,7 @@ AJAX Basics
 3.  When a server answers an AJAX request, it sends back a response.
 4.  You use AJAX to communicate with a server by sending it a request.
 
+
 How AJAX Works
 1.  Callbacks for multiple AJAX requests may not run in the order the requests
     were sent.
@@ -14,9 +15,10 @@ How AJAX Works
       3.  Open request.
       4.  Send request.
 
+
 HTTP Request Methods
 1.  When should you use the POST HTTP method with AJAX?
-    When you want to send data that the web server should store in a database and
+A.  When you want to send data that the web server should store in a database and
     When you want to send more than 2083 characters of data to the web server.
 
 2.  Which of these is an example of a valid query string?
@@ -31,6 +33,7 @@ HTTP Request Methods
 5.  Which of these is a difference between GET and POST?
     POST sends its data in the "body" of the request. GET sends data in the URL.
 
+
 AJAX Response Formats
 1.  What does XML stand for?
     Extensible Markup Language.
@@ -44,3 +47,21 @@ AJAX Response Formats
 
 4.  True or False: XML is the preferred format for AJAX responses because XML is the easiest format for JavaScript to work with.
     False. JSON is a much better data exchange format for JavaScript.
+
+
+AJAX Security Limitations
+1.  True or False: When adding standard AJAX requests to your pages, you need to view that page through a web server in order to preview the results.
+    True.
+
+2.  Imagine you have a web page that is retrieved from http://www.myserver.com. Which of the following scenarios is NOT against a web browser's same-origin policy?
+    None of the above.
+
+3.  Why is a web proxy useful for AJAX requests?
+    It allows you to bypass a web browser's same-origin policy by retrieving data
+    from another server, while keeping AJAX requests within the same domain.
+
+4.  What does CORS stand for?
+    Cross-origin resource sharing.
+
+5.  What does JSONP stand for?
+    JSON with Padding.
