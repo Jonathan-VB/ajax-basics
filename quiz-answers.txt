@@ -1,0 +1,15 @@
+AJAX Basics
+1.  AJAX = Asynchronous JavaScript & XML.
+2.  AJAX lets you update content on a webpage without loading a new webpage.
+3.  When a server answers an AJAX request, it sends back a response.
+4.  You use AJAX to communicate with a server by sending it a request.
+
+How AJAX Works
+1.  Callbacks for multiple AJAX requests may not run in the order the requests
+    were sent.
+2.  The browser uses XMLHttpRequest Objects to manage AJAX requests.
+3.  The four steps to creating an AJAX request are:
+      1.  Create a XMLHttpRequest Object.
+      2.  Create a callback function.
+      3.  Open request.
+      4.  Send request.
