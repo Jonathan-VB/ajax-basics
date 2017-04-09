@@ -30,3 +30,17 @@ HTTP Request Methods
 
 5.  Which of these is a difference between GET and POST?
     POST sends its data in the "body" of the request. GET sends data in the URL.
+
+AJAX Response Formats
+1.  What does XML stand for?
+    Extensible Markup Language.
+
+2.  True or False: HTML and XML both use tags to mark up information.
+    True.
+
+3.  Which of these is NOT a common AJAX response format?
+    Binary Files. You can receive binary files -- like images -- using AJAX, but
+    plain text formats like JSON, XML, and HTML are more common.
+
+4.  True or False: XML is the preferred format for AJAX responses because XML is the easiest format for JavaScript to work with.
+    False. JSON is a much better data exchange format for JavaScript.
