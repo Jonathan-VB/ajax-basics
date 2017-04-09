@@ -13,3 +13,20 @@ How AJAX Works
       2.  Create a callback function.
       3.  Open request.
       4.  Send request.
+
+HTTP Request Methods
+1.  When should you use the POST HTTP method with AJAX?
+    When you want to send data that the web server should store in a database and
+    When you want to send more than 2083 characters of data to the web server.
+
+2.  Which of these is an example of a valid query string?
+    http://server.com/page.php?name=Johnny+Depp&movie=Pirates+of+the+Caribbean%3A+Dead+Man%27s+Chest
+
+3.  What is a common reason for using the GET HTTP Method to send an AJAX request?
+    When you're only interested in getting information from a web server.
+
+4.  What is a query string?
+    Information sent to the web server. It is added to the end of a URL.
+
+5.  Which of these is a difference between GET and POST?
+    POST sends its data in the "body" of the request. GET sends data in the URL.
