@@ -6,7 +6,26 @@
   <link rel="stylesheet" href="css/main.css">
   <title>AJAX with JavaScript</title>
   <script>
- 
+
+    // Step 1: Create an XMLHTTP Request Object.
+    // This is required any time you want to work with AJAX.
+    // A new XHR Object is required for each AJAX request.
+    var xhr = new XMLHttpRequest();
+
+    // Step 2: Create a callback function.
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        document.getElementById('ajax').innerHTML = xhr.responseText;
+      }
+    };
+
+    // Step 3: Open the request.
+    // Pass in two pieces of information, the HTTP method and the url the request is going.
+    xhr.open('GET', 'sidebar.html');
+
+    // Step 4: Send the request.
+    xhr.send();
+
   </script>
 </head>
 <body>
