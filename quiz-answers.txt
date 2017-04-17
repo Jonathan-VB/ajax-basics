@@ -119,3 +119,19 @@ Review jquery
 
 3.  What does CDN stand for?
     Content Delivery Network.
+
+
+jQuery AJAX Shorthand Methods
+1.  What is the difference between jQuery's .load() AJAX method and jQuery's other shorthand AJAX methods?
+    The .load() method must be chained onto a jQuery selection. For example, $('#element').load('page.html');
+
+2.  jQuery's $.get() method accepts three arguments. What order do they go in?
+    1. URL
+    2. Data for the server
+    3. Callback function to process the server response.
+
+3.  jQuery passes the data from the server response to the callback function of $.get(). This is the same as which of the following XMLHTTPRequest object properties?
+    The responseText property.
+
+4.  Which of the following is NOT a jQuery AJAX shorthand method?
+    .load(), $.get(), $.post() and $.getJSON() are all jQuery AJAX shorthands.
