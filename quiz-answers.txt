@@ -108,3 +108,14 @@ Review Parsing JSON
 
 3.  What will appear in the alert dialog box when this code runs? var word = "Treehouse"; alert( typeof word);
     A string.
+
+
+Review jquery
+1.  What is jQuery?
+    A popular JavaScript library that simplifies making AJAX requests.
+
+2.  What does this code do: $('#ajax').load('sidebar.html');
+    It loads the contents of the sidebar.html file into an HTML element with the ID of "ajax."
+
+3.  What does CDN stand for?
+    Content Delivery Network.
