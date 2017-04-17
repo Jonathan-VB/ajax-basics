@@ -334,7 +334,7 @@ ul.bulleted li:before {
   padding: 3px 2px 2px;
   border-radius: 2px;
   text-align: center;
-  width: 25px;
+  width: 30px;
 }
 
 ul.bulleted .in {
@@ -352,6 +352,24 @@ ul.bulleted .out {
 
 ul.bulleted .out:before {
   content: "OUT";
+  background-color: #ed5a5a;
+}
+
+ul.bulleted .empty {
+  color: #5A6772;
+}
+
+ul.bulleted .empty:before {
+  content: "EMPTY";
+  background-color: #5fcf80;
+}
+
+ul.bulleted .full {
+  color: #A7B4BF;
+}
+
+ul.bulleted .full:before {
+  content: "FULL";
   background-color: #ed5a5a;
 }
 
