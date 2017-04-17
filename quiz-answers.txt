@@ -97,3 +97,14 @@ JSON
 4.  JSON data can be formatted in which of these ways?
     As an array of values, as a JavaScript object containing property name / value pairs and
     as an array of JavaScript objects.
+
+
+Review Parsing JSON
+1.  When a web server sends JSON-formatted data, what is it sending?
+    A string.
+
+2.  Which of the following is a web browser's method for turning a JSON string into a JavaScript object?
+    JSON.parse()
+
+3.  What will appear in the alert dialog box when this code runs? var word = "Treehouse"; alert( typeof word);
+    A string.
