@@ -135,3 +135,20 @@ jQuery AJAX Shorthand Methods
 
 4.  Which of the following is NOT a jQuery AJAX shorthand method?
     .load(), $.get(), $.post() and $.getJSON() are all jQuery AJAX shorthands.
+
+
+AJAX Post Requests with jQuery
+1.  Complete this code to retrieve a form's "action" attribute and store it in the variable url: var url = $('form').__("action");
+    attr.
+
+2.  What does jQuery's preventDefault() method do?
+    It's used with an event object to prevent the browser from responding normally to an event -- for example, it prevents a form from being submitted, or loading a new web page when a link is clicked.
+
+3.  Complete the code below to add a submit event handler to a form: $('form').__(function (evt) {});
+    submit.
+
+4.  Which of the following jQuery AJAX shorthand methods posts data to a server?
+    $.post()
+
+5.  What does jQuery's serialize() method do?
+    Creates a text string with standard URL-encoded notation of fields in an HTML form.
