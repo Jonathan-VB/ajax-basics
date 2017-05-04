@@ -176,3 +176,18 @@ AJAX Method
 5.  What two parameters does jQuery's $.ajax() method accept?
     1. A URL
     2. A JavaScript object containing settings that control how the AJAX request is made
+
+
+AJAX Error Handling
+1.  What is the jQuery method for handling errors in an AJAX response?
+    .fail()
+
+2.  In which of the following situations does jQuery's .fail() method NOT work?
+    When using the .load() method.
+    When making requests to another site.
+
+3.  The callback function for jQuery's .fail() method receives a jQuery XHR object as a parameter. What property of the jQuery XHR object provides the response's HTTP status code?
+    status
+
+4.  The callback function for jQuery's .fail() method receives a jQuery XHR object as a parameter. What property of the jQuery XHR object provides a text description of the response's status code?
+    statusText
