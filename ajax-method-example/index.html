@@ -18,11 +18,14 @@
       // serialize retrieves all data from the form.
       var data = $(this).serialize();
       console.log(data);
-      // Post method sends off data (to nowhere in this case).
-      // Replaces teh code in #signup with a success message.
-      $.post(url,data,function(response) {
-        $('#signup').html("<p>Thanks for signing up!</p>")
-      });
+
+      $.ajax(url, {
+        data: formData,
+        type: "POST",
+        success: function(response) {
+          $('#signup').html("<p>Thanks for signing up!</p>");
+        }
+      }); // end ajax
     }); // end submit
   }); // end ready
   </script>
