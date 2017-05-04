@@ -8,6 +8,21 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script>
 
+  $(document).ready(function() {
+    $.get('missing.html', function(data) {
+      $('#myDiv').html(data);
+    }).fail(function (jqXHR) {
+
+      // Print out a custom error message.
+      var errorMessage = "<p>Sorry! There's been an error. ";
+      errorMessage += "Please try again later!";
+      $('#myDiv').html(errorMessage);
+
+      // Print out the status error in text.
+      // $('#myDiv').html("<p>Sorry! " + jqXHR.statusText + " error.</p>");
+    });
+  }); //end ready
+
   </script>
 </head>
 <body>
@@ -17,11 +32,10 @@
         <div class="grid-100">
           <div class="heading">
             <h1>Bring on the AJAX</h1>
-            <button id="load" onclick="sendAJAX()">Bring it!</button>
           </div>
-          <ul id="ajax">
+          <div id="myDiv">
 
-          </ul>
+          </div>
         </div>
       </div>
     </div>
