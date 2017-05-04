@@ -152,3 +152,27 @@ AJAX Post Requests with jQuery
 
 5.  What does jQuery's serialize() method do?
     Creates a text string with standard URL-encoded notation of fields in an HTML form.
+
+
+AJAX Method
+1.  Why would you use jQuery's $.ajax() method instead of one of the simpler shorthand methods like $.get(), $.getJSON() or $.post()?
+    The $.ajax() method has more options and provides greater control of the AJAX request.
+    The $.ajax() method lets you set a timeout to control how long you're willing to wait for a response from a server.
+    The $.ajax() method lets you send a username and password to resources that require user authentication.
+
+2.  Which of the following correctly shows the $.ajax() method in action?
+    $.ajax("sidebar.html",  {
+      success : function(response) {
+        $('#sidebar').html(response);
+      }
+    });
+
+3.  jQuery's $.ajax() method accepts a JavaScript object containing settings for how the AJAX request is handled. What is that object's success property used for?
+    To set a success message sent to the callback function that handles the web server's response.
+
+4.  What is jQuery's low-level AJAX method -- the one all the shorthand methods are built on?
+    $.ajax()
+
+5.  What two parameters does jQuery's $.ajax() method accept?
+    1. A URL
+    2. A JavaScript object containing settings that control how the AJAX request is made
