@@ -202,3 +202,17 @@ What is an API?
 
 3Q    An API lets you connect to a third-party web site like YouTube or Twitter and request content.
 3A    True.
+
+
+Review the Flickr API
+1Q    What is an API key for?
+1A    Lets a web developer connect with a third party API like Google Maps, lets a web site limit access to its API, and lets a web site track use of its API and charge money for its use.
+
+2Q    Finish this code to retrieve a JSON formatted version of the Flickr Public Photo Feed: https://api.flickr.com/services/feeds/photos_public.gne
+2A    ?format=json
+
+3Q    What is JSONP?
+3A    A method for requesting data from another web server by bypassing a web browser's "same origin" policy, JSON with Padding, and a way of sending data in a JavaScript file.
+
+2Q    What is Flickr?
+2A    A large photo-sharing website owned by Yahoo!
