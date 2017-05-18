@@ -191,3 +191,14 @@ AJAX Error Handling
 
 4.  The callback function for jQuery's .fail() method receives a jQuery XHR object as a parameter. What property of the jQuery XHR object provides a text description of the response's status code?
     statusText
+
+
+What is an API?
+1Q    What does API stand for?
+1A    Application Programming Interface.
+
+2Q    Which of the following programming languages can be used to talk to third-party APIs?
+2A    All of the above (Ruby, PHP, Python, JavaScript).
+
+3Q    An API lets you connect to a third-party web site like YouTube or Twitter and request content.
+3A    True.
