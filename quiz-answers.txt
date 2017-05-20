@@ -214,8 +214,8 @@ Review the Flickr API
 3Q    What is JSONP?
 3A    A method for requesting data from another web server by bypassing a web browser's "same origin" policy, JSON with Padding, and a way of sending data in a JavaScript file.
 
-2Q    What is Flickr?
-2A    A large photo-sharing website owned by Yahoo!
+4Q    What is Flickr?
+4A    A large photo-sharing website owned by Yahoo!
 
 
 jQuery Part 2
@@ -228,5 +228,20 @@ jQuery Part 2
 3Q    What does this code do? $(document).ready(function () {});
 3A    It waits until the HTML for the page has loaded before running the JavaScript code placed inside it.
 
-2Q    Complete the code below to remove the class "selected" from all button elements. $("button").____("selected");
-2A    removeClass
+4Q    Complete the code below to remove the class "selected" from all button elements. $("button").____("selected");
+4A    removeClass
+
+
+AJAX requests with jQuery
+1Q    What 3 parameters does jQuery's $.getJSON() method accept?
+1A    1. A URL. 2. A JavaScript object to send data to the server 3. A callback function to process the response from the server
+.
+
+2Q    You can send Flickr's public photo feed a property named "tags". What does the "tags" property do?
+2A    It lets you search for photos that match a particular keyword.
+
+3Q    Which of jQuery's AJAX methods can you use to make a JSONP request?
+3A    $.getJSON()
+
+4Q    You can send Flickr's public photo feed a property named "format". What does the "format" property do?
+4A    It lets you specify the format for the feed, for example an XML or JSON format.
