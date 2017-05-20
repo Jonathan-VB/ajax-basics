@@ -216,3 +216,17 @@ Review the Flickr API
 
 2Q    What is Flickr?
 2A    A large photo-sharing website owned by Yahoo!
+
+
+jQuery Part 2
+1Q    What is the name for this type of function: function () {}
+1A    An anonymous function.
+
+2Q    Fill in the missing code to add a click event handler to all HTML button elements on a page: $(____).click(function() {});
+2A    'button'
+
+3Q    What does this code do? $(document).ready(function () {});
+3A    It waits until the HTML for the page has loaded before running the JavaScript code placed inside it.
+
+2Q    Complete the code below to remove the class "selected" from all button elements. $("button").____("selected");
+2A    removeClass
