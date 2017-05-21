@@ -245,3 +245,19 @@ AJAX requests with jQuery
 
 4Q    You can send Flickr's public photo feed a property named "format". What does the "format" property do?
 4A    It lets you specify the format for the feed, for example an XML or JSON format.
+
+
+AJAX methods & JavaScript Objects
+1Q    jQuery's $.each() method is a faster way to write what type of JavaScript structure?
+1A    A loop.
+
+2Q    What two parameters does jQuery's $.each() method accept?
+2A    1. An object 2. A callback to process the object's property names and values OR	1. An array 2. A callback function to process the array items
+
+
+3Q    You can use jQuery's $.each() function to process an array of items. What two arguments are passed to the callback function that processes the array?
+3A    1. The index value of the current array item 2. The value of the current array item
+
+
+4Q    var contact = {name : "Jill", phone: "510-555-1212"}; Finish the code below to display the object's "name" property in an alert box: alert(_____);
+4A    contact.name
