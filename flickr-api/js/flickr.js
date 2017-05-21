@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("button").removeClass("selected");  // Removes the highlight from all buttons.
     $(this).addClass("selected");         // Adds the highlight to the clicked button.
 
-    var flickerAPI = "http://api.flickr.com/servies/feeds/photos_public.gne?jsoncallback=?";
+    var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var animal = $(this).text();  // Gets the text associated with the clicked button.
     // 'tags' and 'format' are Flickr API query string params.
     var flickrOptions = {
@@ -12,9 +12,16 @@ $(document).ready(function() {
           format: "json", // Flickr sends XML by default. Change data to JSON format.
     };
     function displayPhotos(data) {
-
+      var photoHTML = '<ul>';
+      $.each(data.items, function(i, photo) {
+        photoHTML += '<li class="grid-25 tablet-grid-50">';
+        photoHTML += '<a href="' + photo.link + '" class="image">';
+        photoHTML += '<img src="' + photo.media.m + '"></a></li>';
+      });
+      photoHTML += '</ul>';
+      $('#photos').html(photoHTML);
     }
     // Flickr AJAX request
-    $.getJSON(flickerAPI, flickerOptions, displayPhotos);
+    $.getJSON(flickrAPI, flickrOptions, displayPhotos);
   }); // end click
 }); // end ready
